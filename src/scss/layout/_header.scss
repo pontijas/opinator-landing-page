@@ -1,8 +1,16 @@
 .header {
+  &__container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
   &__menu {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+  }
+  &__logo {
+    width: 6rem;
   }
 }
 
