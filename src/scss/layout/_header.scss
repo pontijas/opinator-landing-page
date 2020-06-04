@@ -3,6 +3,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    padding: 0 1.5rem;
   }
   &__menu {
     display: flex;
@@ -11,22 +12,37 @@
   }
   &__logo {
     width: 6rem;
+    &:hover {
+      cursor: pointer;
+      background-image: url(../images/circle.png);
+      background-size: 4rem;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 }
 
 .menu {
   &__img {
     height: 1.5rem;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &__container {
     width: 40vw;
+    font-weight: bolder;
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
   }
   &__link {
+    padding-left: 1rem;
     text-decoration: none;
     color: inherit;
+    &:hover {
+      color: $yellow;
+    }
   }
 }

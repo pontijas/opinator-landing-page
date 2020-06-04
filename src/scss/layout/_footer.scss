@@ -1,4 +1,7 @@
 .footer {
+  &__container {
+    padding-bottom: 1rem;
+  }
   &__credits {
     display: flex;
     flex-direction: column;
