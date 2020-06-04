@@ -3,3 +3,9 @@
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
+
+.page {
+  &__container {
+    height: 100vh;
+  }
+}
