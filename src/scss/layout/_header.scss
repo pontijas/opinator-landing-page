@@ -1,0 +1,24 @@
+.header {
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.menu {
+  &__img {
+    height: 1.5rem;
+  }
+  &__container {
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
