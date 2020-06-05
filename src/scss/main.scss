@@ -6,6 +6,7 @@
 
 .page {
   &__container {
+    font-family: $mainFont;
     background-image: url('../images/bg.jpg');
     background-size: cover;
     background-position: center;
