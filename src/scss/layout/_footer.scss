@@ -3,8 +3,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-bottom: 1rem;
-    padding: 0rem 1.5rem 1rem 1.5rem;
+    padding: 2rem 1.5rem 1rem 1.5rem;
   }
   &__credits {
     display: flex;
@@ -15,12 +14,22 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 3.5rem;
+    width: 4.5rem;
   }
   &__item {
     list-style: none;
   }
   &__img {
-    width: 1.5rem;
+    width: 2rem;
+  }
+}
+
+// responsive
+
+@media all and (max-width: 320px) {
+  .footer {
+    &__credits {
+      font-size: 0.8rem;
+    }
   }
 }
