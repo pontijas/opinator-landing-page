@@ -42,7 +42,25 @@
     text-decoration: none;
     color: inherit;
     &:hover {
-      color: $yellow;
+      color: $red;
+    }
+  }
+}
+
+// responsive
+
+@media all and (max-width: 767px) {
+  .header {
+    &__container {
+      padding: 0 0.5rem;
+    }
+    &__menu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    &__logo {
+      width: 4rem;
     }
   }
 }
