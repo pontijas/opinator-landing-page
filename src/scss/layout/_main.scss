@@ -18,13 +18,30 @@
   }
   &__img {
     height: 100%;
+    border-radius: 0.25rem;
+  }
+  &__button {
+    position: relative;
+    left: 45%;
+    margin: 5rem 0rem;
+    padding: 0.75rem 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: $mainFont;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: $white;
+    background: $red;
+    box-shadow: 2px 3px 10px -2px rgba(125, 125, 125, 1);
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
 .img {
   &__container {
-    height: 12rem;
-    border-radius: 0.25rem;
+    height: 60%;
   }
 }
 
