@@ -1,11 +1,26 @@
 .footer {
   &__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     padding-bottom: 1rem;
+    padding: 0rem 1.5rem 1rem 1.5rem;
   }
   &__credits {
     display: flex;
     flex-direction: column;
+  }
+  &__socialmed {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 3.5rem;
+  }
+  &__item {
+    list-style: none;
+  }
+  &__img {
+    width: 1.5rem;
   }
 }
